@@ -47,7 +47,7 @@ ADMIN_CHAT_ID_RAW = os.getenv("ADMIN_CHAT_ID", "").strip()
 ADMIN_CHAT_ID = int(ADMIN_CHAT_ID_RAW) if ADMIN_CHAT_ID_RAW.lstrip("-").isdigit() else None
 
 # Если есть @username менеджера или канал/чат для связи — можно указать:
-MANAGER_CONTACT = os.getenv("MANAGER_CONTACT", "@your_manager")
+MANAGER_CONTACT = os.getenv("MANAGER_CONTACT", "@tED_ward")
 
 BRAND_DESCRIPTION = (
     "Добро пожаловать в <b>PharmaHeaven</b>.\n\n"
